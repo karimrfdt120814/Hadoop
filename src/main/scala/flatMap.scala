@@ -15,6 +15,8 @@ object flatMap {
     mapData.collect.foreach(println)
 
     flatmapData.collect.foreach(println)
+
+
   }
 
 }
