@@ -6,7 +6,6 @@ public class ifElseif {
         int a = 10;
         if(a==10){
             System.out.println("value of a is:10");
-
         }
 
     }
