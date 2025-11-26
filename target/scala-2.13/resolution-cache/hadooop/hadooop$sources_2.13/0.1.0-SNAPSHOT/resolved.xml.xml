@@ -4,7 +4,7 @@
 		module="hadooop$sources_2.13"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20250612134447"
+		publication="20251126171102"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
