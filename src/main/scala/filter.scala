@@ -8,7 +8,6 @@ object filter {
 
     val readFile = spark.sparkContext.textFile("C:\\Users\\Asus\\Desktop\\input.txt")
 
-
     val filteredData = readFile.filter(x=>x.length <= 30)
 
   //  filteredData.collect.foreach(println)
