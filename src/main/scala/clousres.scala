@@ -15,7 +15,7 @@ object clousres {
 //
 //
 //
-//    val first_name = "Karimulla"
+//val first_name = "Karimulla"
 //
 //    val full_name = (x:String) => x + " " + first_name
 //
