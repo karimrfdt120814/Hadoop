@@ -1,6 +1,6 @@
 package javaPrac;
 
-public class sortArray {
+public class sortArrayASC {
     public static void main(String[] args) {
         int a[] = {1,4,2,5,6,3,9,25,14};
 
