@@ -13,24 +13,24 @@ public class copyArrayElements {
             //System.out.println(b[j]);
         }
 
-
         int a1[] = {1,2,3,4};
         int b1[] = {6,7,8};
 
         int result[] = new int[a1.length+b1.length];
         int index =0;
-        //copying array b1 into result
-        for(int i=0;i<b1.length;i++){
-            result[index++] =b1[i];
-            //System.out.println(result[i]);
-        }
-        System.out.println("b1 array successfully copied to result array");
 
         //copying array b1 into result
         for(int i=0;i<a1.length;i++){
             result[index++]=a1[i];
         }
         System.out.println("a1 array successfully copied to result array");
+
+        //copying array b1 into result
+        for(int i=0;i<b1.length;i++){
+            result[index++] =b1[i];
+            //System.out.println(result[i]);
+        }
+        System.out.println("b1 array successfully copied to result array");
 
         System.out.println("******printing results after copying the elements*****");
 
