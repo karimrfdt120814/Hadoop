@@ -85,5 +85,15 @@ object clousres {
 
   }
 
+  def makeAccumulator( number:Int):Unit={
+    var number=0
+    (addition:Int) => number +=addition
+
+  }
+
+  val acc = makeAccumulator()
+
+  println(add5)
+
 
 }
