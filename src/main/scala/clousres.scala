@@ -90,10 +90,4 @@ object clousres {
     (addition:Int) => number +=addition
 
   }
-
-  val acc = makeAccumulator()
-
-  println(add5)
-
-
 }
