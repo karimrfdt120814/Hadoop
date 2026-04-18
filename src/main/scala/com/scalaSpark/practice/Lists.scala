@@ -58,10 +58,36 @@ object Lists {
     } yield s"$l$i"
 
     for (c <- combos) {
-      println(c)
+      //println(c)
 
     }
+
+    case class user(id:Int,Name:String,age:Int)
+
+    val users=List(
+      user(1,"Alice",20),
+      user(2,"Bob",22),
+      user(3,"Charlie",30)
+    )
+
+    val userData = for(u <- users if u.age >22) yield u.Name
+   // userData.foreach(println)
+
+    val files = List("data1.json", "data2.csv", "data3.json")
+
+    val jsonData =for(data <- files; if data.endsWith(".json")) yield data.toUpperCase()
+
+   // jsonData.foreach(println)
+
+    val csvData = for(data <- files; if data.endsWith(".csv")) yield data.toUpperCase()
+
+    csvData.foreach(println)
+
+
+
+
   }
+
 
   }
 
